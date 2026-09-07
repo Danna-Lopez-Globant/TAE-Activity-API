@@ -10,7 +10,10 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotNull;
 
-/**Get details of a specific pet</b>.
+/** Tests for the functionality: Get details of a specific pet</b>.
+ * <p>
+ *     Endpoint: {@code GET /pet/{petId}}
+ * </p>
  */
 public class GetPetByIdTests extends TestRunner {
 

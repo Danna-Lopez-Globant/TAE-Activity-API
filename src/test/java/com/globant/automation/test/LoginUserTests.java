@@ -14,11 +14,20 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
-
+/**
+ * Tests for the functionality: <b>Log in with a newly created user</b>.
+ * <p>
+ * Endpoint: {@code GET /user/login}
+ * </p>
+ */
 public class LoginUserTests extends TestRunner {
 
     /**
      * Creates a user within the same test and then logs in with those credentials.
+     * <p>
+     * The prior creation is part of this case setup to guarantee independence
+     * from {@link CreateUserTests}.
+     * </p>
      */
     @Test(testName = "Login - successful authentication with newly created user")
     public void shouldLoginWithNewlyCreatedUser() {

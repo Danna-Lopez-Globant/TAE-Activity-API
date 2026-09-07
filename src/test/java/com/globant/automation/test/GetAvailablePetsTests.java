@@ -15,11 +15,19 @@ import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertNotNull;
 import static org.testng.Assert.assertTrue;
 
-
+/**
+ * Tests for the functionality: <b>List pets with available status</b>.
+ * <p>
+ * Endpoint: {@code GET /pet/findByStatus?status=available}
+ * </p>
+ */
 public class GetAvailablePetsTests extends TestRunner {
 
     /**
      * Validates that the API returns the list of pets with status available.
+     * <p>
+     *     Independent test: only queries the catalog and verifies the status filter.
+     * </p>
      */
     @Test(testName = "List pets - all with available status")
     public void shouldListOnlyAvailablePets() {

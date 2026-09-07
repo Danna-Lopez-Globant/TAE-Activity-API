@@ -13,11 +13,19 @@ import java.util.Map;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-
+/**
+ * Tests for the functionality: <b>Log out from the application</b>.
+ * <p>
+ * Endpoint: {@code GET /user/logout}
+ * </p>
+ */
 public class LogoutUserTests extends TestRunner {
 
     /**
      * Logs in with a user owned by this test and then closes the session.
+     * <p>
+     * The prior login is internal setup; the case does not depend on {@link LoginUserTests}.
+     * </p>
      */
     @Test(testName = "Logout - successful session close")
     public void shouldLogoutSuccessfully() {

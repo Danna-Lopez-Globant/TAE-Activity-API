@@ -14,7 +14,21 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 import static org.testng.Assert.assertNotNull;
 
+/**
+ * Tests for the functionality: <b>Create a user</b>.
+ * <p>
+ * Endpoint: {@code POST /user}
+ * </p>
+ */
 public class CreateUserTests extends TestRunner {
+
+    /**
+     * Validates that a new user can be created in the PerfDog store.
+     * <p>
+     * The test is independent: it generates unique data on each run
+     * and does not depend on other test cases.
+     * </p>
+     */
     @Test(testName = "Create user - successful response with status 200")
     public void shouldCreateUserSuccessfully() {
         User newUser = TestDataFactory.buildUniqueUser();

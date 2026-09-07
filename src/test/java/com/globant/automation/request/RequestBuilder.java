@@ -8,6 +8,12 @@ import io.restassured.specification.RequestSpecification;
 
 import java.util.Map;
 
+/**
+ * Reusable HTTP request builder for Rest Assured tests.
+ * <p>
+ * Centralizes headers, logging, and HTTP methods (GET, POST) against the Petstore API.
+ * </p>
+ */
 public final class RequestBuilder {
 
     private static final String CONTENT_TYPE = "Content-Type";
@@ -15,7 +21,6 @@ public final class RequestBuilder {
     private static final String API_KEY_HEADER = "api_key";
 
     private RequestBuilder() {
-        // Utility class
     }
 
     /**

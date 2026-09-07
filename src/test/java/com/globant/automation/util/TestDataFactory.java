@@ -19,6 +19,11 @@ public final class TestDataFactory {
     private TestDataFactory() {
     }
 
+    /**
+     * Builds a user with a unique username based on UUID.
+     *
+     * @return user ready to send to {@code POST /user}
+     */
     public static User buildUniqueUser() {
         String suffix = UUID.randomUUID().toString().substring(0, 8);
         return User.builder()
@@ -33,6 +38,11 @@ public final class TestDataFactory {
                 .build();
     }
 
+    /**
+     * Builds an available pet with a unique id.
+     *
+     * @return pet ready to send to {@code POST /pet}
+     */
     public static Pet buildAvailablePet() {
         long id = System.currentTimeMillis();
         return Pet.builder()
@@ -45,6 +55,12 @@ public final class TestDataFactory {
                 .build();
     }
 
+    /**
+     * Builds a purchase order for the given pet.
+     *
+     * @param petId identifier of the pet to purchase
+     * @return order ready to send to {@code POST /store/order}
+     */
     public static Order buildOrderForPet(Long petId) {
         return Order.builder()
                 .id(System.currentTimeMillis())

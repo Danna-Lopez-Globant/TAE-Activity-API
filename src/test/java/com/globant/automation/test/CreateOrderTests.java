@@ -15,6 +15,13 @@ import static org.testng.Assert.*;
  */
 public class CreateOrderTests extends TestRunner {
 
+    /**
+     * Creates a pet and places a purchase order for it.
+     * <p>
+     * The test is self-contained: it prepares its own pet and does not reuse
+     * data from other suite cases.
+     * </p>
+     */
     @Test(testName = "Create order - successful pet purchase")
     public void shouldCreateOrderForPet() {
         Pet petToCreate = TestDataFactory.buildAvailablePet();

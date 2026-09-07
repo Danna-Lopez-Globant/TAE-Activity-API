@@ -6,6 +6,12 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * Generic Petstore API response for operations such as user creation.
+ * <p>
+ * Maps to the {@code ApiResponse} schema.
+ * </p>
+ */
 @Data
 @Builder
 @AllArgsConstructor
@@ -13,9 +19,12 @@ import lombok.NoArgsConstructor;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class ApiResponse {
 
+    /** Result code reported by the API. */
     private Integer code;
 
+    /** Response type. */
     private String type;
 
+    /** Descriptive message of the response*/
     private String message;
 }

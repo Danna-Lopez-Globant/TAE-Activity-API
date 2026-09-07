@@ -8,6 +8,12 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
+/**
+ * Model representing a pet in the PerfDog catalog.
+ * <p>
+ * Maps to the Swagger Petstore {@code Pet} schema.
+ * </p>
+ */
 @Data
 @Builder
 @AllArgsConstructor
