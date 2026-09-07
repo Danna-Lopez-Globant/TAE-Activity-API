@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="11" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PerfDog Petstore API Suite" duration-ms="10097" started-at="2026-09-07T11:07:55 COT" finished-at="2026-09-07T11:08:05 COT">
+    <groups>
+    </groups>
+    <test name="User and Store Functionalities" duration-ms="10097" started-at="2026-09-07T11:07:55 COT" finished-at="2026-09-07T11:08:05 COT">
+      <class name="com.globant.automation.test.LogoutUserTests">
+        <test-method status="PASS" signature="shouldLogoutSuccessfully()[pri:0, instance:com.globant.automation.test.LogoutUserTests@289d1c02]" name="shouldLogoutSuccessfully" duration-ms="1502" started-at="2026-09-07T11:08:03 COT" finished-at="2026-09-07T11:08:05 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLogoutSuccessfully -->
+      </class> <!-- com.globant.automation.test.LogoutUserTests -->
+      <class name="com.globant.automation.test.LoginUserTests">
+        <test-method status="PASS" signature="shouldLoginWithNewlyCreatedUser()[pri:0, instance:com.globant.automation.test.LoginUserTests@c81cdd1]" name="shouldLoginWithNewlyCreatedUser" duration-ms="1009" started-at="2026-09-07T11:07:59 COT" finished-at="2026-09-07T11:08:00 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLoginWithNewlyCreatedUser -->
+      </class> <!-- com.globant.automation.test.LoginUserTests -->
+      <class name="com.globant.automation.test.GetPetByIdTests">
+        <test-method status="PASS" signature="shouldGetPetDetailsById()[pri:0, instance:com.globant.automation.test.GetPetByIdTests@75881071]" name="shouldGetPetDetailsById" duration-ms="937" started-at="2026-09-07T11:08:02 COT" finished-at="2026-09-07T11:08:02 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldGetPetDetailsById -->
+      </class> <!-- com.globant.automation.test.GetPetByIdTests -->
+      <class name="com.globant.automation.test.CreateOrderTests">
+        <test-method status="PASS" signature="shouldCreateOrderForPet()[pri:0, instance:com.globant.automation.test.CreateOrderTests@2a70a3d8]" name="shouldCreateOrderForPet" duration-ms="1015" started-at="2026-09-07T11:08:02 COT" finished-at="2026-09-07T11:08:03 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCreateOrderForPet -->
+      </class> <!-- com.globant.automation.test.CreateOrderTests -->
+      <class name="com.globant.automation.test.GetAvailablePetsTests">
+        <test-method status="PASS" signature="shouldListOnlyAvailablePets()[pri:0, instance:com.globant.automation.test.GetAvailablePetsTests@1fc2b765]" name="shouldListOnlyAvailablePets" duration-ms="1442" started-at="2026-09-07T11:08:00 COT" finished-at="2026-09-07T11:08:02 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldListOnlyAvailablePets -->
+      </class> <!-- com.globant.automation.test.GetAvailablePetsTests -->
+      <class name="com.globant.automation.test.CreateUserTests">
+        <test-method status="PASS" signature="setUpEnvironment()[pri:0, instance:com.globant.automation.test.CreateUserTests@32eebfca]" name="setUpEnvironment" is-config="true" duration-ms="13" started-at="2026-09-07T11:07:55 COT" finished-at="2026-09-07T11:07:55 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpEnvironment -->
+        <test-method status="PASS" signature="shouldCreateUserSuccessfully()[pri:0, instance:com.globant.automation.test.CreateUserTests@32eebfca]" name="shouldCreateUserSuccessfully" duration-ms="4125" started-at="2026-09-07T11:07:55 COT" finished-at="2026-09-07T11:07:59 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCreateUserSuccessfully -->
+      </class> <!-- com.globant.automation.test.CreateUserTests -->
+    </test> <!-- User and Store Functionalities -->
+  </suite> <!-- PerfDog Petstore API Suite -->
+</testng-results>

@@ -1,0 +1,2952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="11.992" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\danna.lopez\Documents\TAE\4.API\TAE-Activity-API\target\test-classes;C:\Users\danna.lopez\Documents\TAE\4.API\TAE-Activity-API\target\classes;C:\Users\danna.lopez\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\danna.lopez\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\danna.lopez\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\danna.lopez\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\danna.lopez\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\danna.lopez\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\danna.lopez\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\danna.lopez\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\danna.lopez\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\danna.lopez\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\danna.lopez\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\danna.lopez\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\danna.lopez\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\danna.lopez\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\danna.lopez\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\danna.lopez\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\danna.lopez\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\danna.lopez\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\danna.lopez\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\danna.lopez\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\danna.lopez\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\danna.lopez\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\danna.lopez\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\danna.lopez\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\danna.lopez\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\danna.lopez\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\danna.lopez\AppData\Local\Temp\surefire8916794235000823617\surefirebooter-20260907110752797_3.jar C:\Users\danna.lopez\AppData\Local\Temp\surefire8916794235000823617 2026-09-07T11-07-50_453-jvmRun1 surefire-20260907110752797_1tmp surefire_0-20260907110752797_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\danna.lopez\Documents\TAE\4.API\TAE-Activity-API\target\test-classes;C:\Users\danna.lopez\Documents\TAE\4.API\TAE-Activity-API\target\classes;C:\Users\danna.lopez\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\danna.lopez\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\danna.lopez\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\danna.lopez\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\danna.lopez\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\danna.lopez\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\danna.lopez\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\danna.lopez\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\danna.lopez\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\danna.lopez\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\danna.lopez\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\danna.lopez\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\danna.lopez\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\danna.lopez\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\danna.lopez\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\danna.lopez\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\danna.lopez\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\danna.lopez\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\danna.lopez\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\danna.lopez\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\danna.lopez\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\danna.lopez\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\danna.lopez\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\danna.lopez\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\danna.lopez\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\danna.lopez\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\danna.lopez"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="basedir" value="C:\Users\danna.lopez\Documents\TAE\4.API\TAE-Activity-API"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\danna.lopez\AppData\Local\Temp\surefire8916794235000823617\surefirebooter-20260907110752797_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="danna.lopez"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\danna.lopez\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\DANNA~1.LOP\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="C:\Users\danna.lopez\Documents\TAE\4.API\TAE-Activity-API"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Git\cmd;C:\Program Files\Maven\apache-maven-3.9.16\bin;C:\Program Files\nodejs\;C:\Users\danna.lopez\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danna.lopez\AppData\Local\Programs\Python\Python312\;C:\Users\danna.lopez\AppData\Local\Microsoft\WindowsApps;C:\Users\danna.lopez\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\danna.lopez\AppData\Local\Globant\Coda\CodingAgent\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2026.2.1\bin;C:\Users\danna.lopez\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldCreateUserSuccessfully" classname="com.globant.automation.test.CreateUserTests" time="4.126">
+    <system-out><![CDATA[11:07:54.216 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\danna.lopez\Documents\TAE\4.API\TAE-Activity-API\src\test\resources\testng.xml"
+11:07:54.288 [main] INFO org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+11:07:55.282 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestRunner.setUpEnvironment()[pri:0, instance:null] 1401636692
+11:07:55.282 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:07:55.287 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:07:55.287 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:07:55.287 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:07:55.295 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestRunner.setUpEnvironment()[pri:0, instance:null] 1401636692
+11:07:55.295 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:07:55.296 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:07:55.296 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:07:55.296 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:07:55.300 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestRunner.setUpEnvironment()[pri:0, instance:null] 1401636692
+11:07:55.300 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:07:55.300 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:07:55.300 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:07:55.300 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:07:55.305 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestRunner.setUpEnvironment()[pri:0, instance:null] 1401636692
+11:07:55.305 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:07:55.305 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:07:55.305 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:07:55.305 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:07:55.309 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestRunner.setUpEnvironment()[pri:0, instance:null] 1401636692
+11:07:55.309 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:07:55.309 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:07:55.309 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:07:55.309 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:07:55.313 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestRunner.setUpEnvironment()[pri:0, instance:null] 1401636692
+11:07:55.313 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:07:55.314 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:07:55.314 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:07:55.314 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:07:55.320 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestRunner.setUpEnvironment()[pri:0, instance:com.globant.automation.test.CreateUserTests@32eebfca] 1355571958
+11:07:55.320 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:07:55.325 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:07:55.325 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:07:55.326 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:07:55.332 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CreateUserTests.shouldCreateUserSuccessfully()[pri:0, instance:com.globant.automation.test.CreateUserTests@32eebfca] -17260733
+11:07:55.332 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginUserTests.shouldLoginWithNewlyCreatedUser()[pri:0, instance:com.globant.automation.test.LoginUserTests@c81cdd1] 1910671030
+11:07:55.332 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE GetAvailablePetsTests.shouldListOnlyAvailablePets()[pri:0, instance:com.globant.automation.test.GetAvailablePetsTests@1fc2b765] 1986867229
+11:07:55.332 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE GetPetByIdTests.shouldGetPetDetailsById()[pri:0, instance:com.globant.automation.test.GetPetByIdTests@75881071] -717810875
+11:07:55.333 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CreateOrderTests.shouldCreateOrderForPet()[pri:0, instance:com.globant.automation.test.CreateOrderTests@2a70a3d8] 2011884068
+11:07:55.333 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LogoutUserTests.shouldLogoutSuccessfully()[pri:0, instance:com.globant.automation.test.LogoutUserTests@289d1c02] 1875554500
+11:07:55.333 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:07:55.334 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:07:55.334 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:07:55.334 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:07:55.386 [main] INFO com.globant.automation.config.TestRunner - Configured base URL: https://petstore.swagger.io/v2
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 1788797275450,
+    "username": "perfdog_user_aed4ddd5",
+    "firstName": "Perf",
+    "lastName": "Dog",
+    "email": "perfdog_aed4ddd5@example.com",
+    "password": "Pass_aed4ddd5",
+    "phone": "3001234567",
+    "userStatus": 1
+}
+HTTP/1.1 200 OK
+Date: Mon, 07 Sep 2026 16:07:57 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1788797275450"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldLoginWithNewlyCreatedUser" classname="com.globant.automation.test.LoginUserTests" time="1.007">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 1788797279567,
+    "username": "perfdog_user_4072db30",
+    "firstName": "Perf",
+    "lastName": "Dog",
+    "email": "perfdog_4072db30@example.com",
+    "password": "Pass_4072db30",
+    "phone": "3001234567",
+    "userStatus": 1
+}
+HTTP/1.1 200 OK
+Date: Mon, 07 Sep 2026 16:07:58 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1788797279567"
+}
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/user/login?password=Pass_4072db30&username=perfdog_user_4072db30
+Proxy:			<none>
+Request params:	<none>
+Query params:	password=Pass_4072db30
+				username=perfdog_user_4072db30
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 07 Sep 2026 16:07:58 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+X-Expires-After: Mon Sep 07 17:07:58 UTC 2026
+X-Rate-Limit: 5000
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1788797278814"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldListOnlyAvailablePets" classname="com.globant.automation.test.GetAvailablePetsTests" time="1.445">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/findByStatus?status=available
+Proxy:			<none>
+Request params:	<none>
+Query params:	status=available
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 07 Sep 2026 16:07:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+[
+    {
+        "id": 112233,
+        "category": {
+            "id": 30,
+            "name": "Eq-dog"
+        },
+        "name": "Postman",
+        "photoUrls": [
+            "URLLink"
+        ],
+        "tags": [
+            {
+                "id": 10,
+                "name": "Doberman"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006506,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006507,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006508,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006509,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006516,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 14,
+        "category": {
+            "id": 28,
+            "name": "Tommy Garcia"
+        },
+        "name": "austinvictoria",
+        "photoUrls": [
+            "https://dummyimage.com/983x239"
+        ],
+        "tags": [
+            {
+                "id": 78,
+                "name": "Erica Ramirez"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 98,
+        "category": {
+            "id": 91,
+            "name": "Michael Barron"
+        },
+        "name": "mitchellshirley",
+        "photoUrls": [
+            "https://picsum.photos/636/639"
+        ],
+        "tags": [
+            {
+                "id": 54,
+                "name": "Kurt Gomez"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 54,
+        "category": {
+            "id": 94,
+            "name": "Wayne May"
+        },
+        "name": "wadejeffery",
+        "photoUrls": [
+            "https://dummyimage.com/888x407"
+        ],
+        "tags": [
+            {
+                "id": 71,
+                "name": "Bradley Martin"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 29,
+        "category": {
+            "id": 93,
+            "name": "Andrea Clark"
+        },
+        "name": "huberalyssa",
+        "photoUrls": [
+            "https://dummyimage.com/239x96"
+        ],
+        "tags": [
+            {
+                "id": 66,
+                "name": "Hannah Sutton"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006540,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006543,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006544,
+        "category": {
+            "id": 0,
+            "name": "test"
+        },
+        "name": "test",
+        "photoUrls": [
+            "test"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "test"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006545,
+        "category": {
+            "id": 0,
+            "name": "test"
+        },
+        "name": "test",
+        "photoUrls": [
+            "test"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "test"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006547,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006548,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006551,
+        "category": {
+            "id": 0,
+            "name": "test"
+        },
+        "name": "lookup_test",
+        "photoUrls": [
+            "test"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "test"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006552,
+        "category": {
+            "id": 0,
+            "name": "test"
+        },
+        "name": "update_test",
+        "photoUrls": [
+            "test"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "test"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006555,
+        "category": {
+            "id": 0,
+            "name": "test"
+        },
+        "name": "upload_test",
+        "photoUrls": [
+            "test"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "test"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006556,
+        "category": {
+            "id": 0,
+            "name": "test"
+        },
+        "name": "upload_test",
+        "photoUrls": [
+            "test"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "test"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006557,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Tiger",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006558,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8938522410935,
+        "category": {
+            "id": 8938523125138,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8938523659583,
+                "name": "disney"
+            },
+            {
+                "id": 8938523659583,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006560,
+        "category": {
+            "id": 8939384048534,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8939384753498,
+                "name": "disney"
+            },
+            {
+                "id": 8939384753498,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8942187712904,
+        "category": {
+            "id": 8942187984015,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8942188207923,
+                "name": "disney"
+            },
+            {
+                "id": 8942188207923,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8942933626995,
+        "category": {
+            "id": 8942933940868,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8942934179107,
+                "name": "disney"
+            },
+            {
+                "id": 8942934179107,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8943821852062,
+        "category": {
+            "id": 8943822077399,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8943822249212,
+                "name": "disney"
+            },
+            {
+                "id": 8943822249212,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8944785712246,
+        "category": {
+            "id": 8944785938598,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8944786129935,
+                "name": "disney"
+            },
+            {
+                "id": 8944786129935,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8953545949304,
+        "category": {
+            "id": 8953546198284,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8953546424871,
+                "name": "disney"
+            },
+            {
+                "id": 8953546424871,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8954410853705,
+        "category": {
+            "id": 8954411055143,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8954411233160,
+                "name": "disney"
+            },
+            {
+                "id": 8954411233160,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8956501858435,
+        "category": {
+            "id": 8956502058196,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8956502239457,
+                "name": "disney"
+            },
+            {
+                "id": 8956502239457,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8957375516660,
+        "category": {
+            "id": 8957375764174,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8957375955402,
+                "name": "disney"
+            },
+            {
+                "id": 8957375955402,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8958057991919,
+        "category": {
+            "id": 8958058186879,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8958058364530,
+                "name": "disney"
+            },
+            {
+                "id": 8958058364530,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8958746260240,
+        "category": {
+            "id": 8958746466719,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8958746609340,
+                "name": "disney"
+            },
+            {
+                "id": 8958746609340,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8960240825089,
+        "category": {
+            "id": 8960241049067,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8960241232431,
+                "name": "disney"
+            },
+            {
+                "id": 8960241232431,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006570,
+        "category": {
+            "id": 8960651622054,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8960651760974,
+                "name": "disney"
+            },
+            {
+                "id": 8960651760974,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8962538006592,
+        "category": {
+            "id": 8962538168900,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8962538327154,
+                "name": "disney"
+            },
+            {
+                "id": 8962538327154,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8963320757343,
+        "category": {
+            "id": 8963320921880,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8963321054598,
+                "name": "disney"
+            },
+            {
+                "id": 8963321054598,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8963883521917,
+        "category": {
+            "id": 8963883723716,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8963883868104,
+                "name": "disney"
+            },
+            {
+                "id": 8963883868104,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8964580123213,
+        "category": {
+            "id": 8964580288335,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8964580412847,
+                "name": "disney"
+            },
+            {
+                "id": 8964580412847,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8965241493443,
+        "category": {
+            "id": 8965241675039,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8965241830449,
+                "name": "disney"
+            },
+            {
+                "id": 8965241830449,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8965953833023,
+        "category": {
+            "id": 8965953998498,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8965954130959,
+                "name": "disney"
+            },
+            {
+                "id": 8965954130959,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8967737948190,
+        "category": {
+            "id": 8967738108425,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8967738235570,
+                "name": "disney"
+            },
+            {
+                "id": 8967738235570,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8968312487884,
+        "category": {
+            "id": 8968312708667,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8968312858282,
+                "name": "disney"
+            },
+            {
+                "id": 8968312858282,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8968833385733,
+        "category": {
+            "id": 8968833545095,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8968833678618,
+                "name": "disney"
+            },
+            {
+                "id": 8968833678618,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8969473572986,
+        "category": {
+            "id": 8969473759008,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 8969473887340,
+                "name": "disney"
+            },
+            {
+                "id": 8969473887340,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 131,
+        "category": {
+            "id": 0,
+            "name": "dickey"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 100,
+                "name": "bowman"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 132,
+        "category": {
+            "id": 0,
+            "name": "dickey"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 100,
+                "name": "bowman"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 134,
+        "category": {
+            "id": 0,
+            "name": "dickey"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 100,
+                "name": "bowman"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006581,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006582,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006583,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "New Doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006595,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006602,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1245,
+        "category": {
+            "id": 1245,
+            "name": "xyz"
+        },
+        "name": "xyz",
+        "photoUrls": [
+            "test"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006623,
+        "category": {
+            "id": 0,
+            "name": "test"
+        },
+        "name": "test",
+        "photoUrls": [
+            "test"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "test"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006624,
+        "category": {
+            "id": 0,
+            "name": "test"
+        },
+        "name": "test",
+        "photoUrls": [
+            "test"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "test"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006632,
+        "category": {
+            "id": 0,
+            "name": "test"
+        },
+        "name": "lookup_test",
+        "photoUrls": [
+            "test"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "test"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006633,
+        "category": {
+            "id": 0,
+            "name": "test"
+        },
+        "name": "update_test",
+        "photoUrls": [
+            "test"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "test"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006637,
+        "category": {
+            "id": 0,
+            "name": "test"
+        },
+        "name": "upload_test",
+        "photoUrls": [
+            "test"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "test"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006638,
+        "category": {
+            "id": 0,
+            "name": "test"
+        },
+        "name": "upload_test",
+        "photoUrls": [
+            "test"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "test"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 554779,
+        "category": {
+            "id": 1,
+            "name": "dogs"
+        },
+        "name": "Maggie",
+        "photoUrls": [
+            "http://www.evangelina-kozey.co/voluptatem#natus"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006931,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1788790622006945,
+        "category": {
+            "id": 0
+        },
+        "name": "Doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 50,
+        "category": {
+            "id": 10,
+            "name": "chihu"
+        },
+        "name": "Mr Dog",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 3,
+                "name": "cute"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775001,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775002,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775003,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775017,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775018,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775019,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10211734227984,
+        "category": {
+            "id": 10211734999525,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10211735548623,
+                "name": "disney"
+            },
+            {
+                "id": 10211735548623,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775024,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775026,
+        "category": {
+            "id": 10212663879085,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10212664559262,
+                "name": "disney"
+            },
+            {
+                "id": 10212664559262,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10215636885417,
+        "category": {
+            "id": 10215637275109,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10215637535646,
+                "name": "disney"
+            },
+            {
+                "id": 10215637535646,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10216396748017,
+        "category": {
+            "id": 10216397001056,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10216397221657,
+                "name": "disney"
+            },
+            {
+                "id": 10216397221657,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10217188777188,
+        "category": {
+            "id": 10217189108863,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10217189353301,
+                "name": "disney"
+            },
+            {
+                "id": 10217189353301,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10218162083950,
+        "category": {
+            "id": 10218162329951,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10218162599482,
+                "name": "disney"
+            },
+            {
+                "id": 10218162599482,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10218802652157,
+        "category": {
+            "id": 10218802897053,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10218803136423,
+                "name": "disney"
+            },
+            {
+                "id": 10218803136423,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10219590558777,
+        "category": {
+            "id": 10219590791727,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10219590966410,
+                "name": "disney"
+            },
+            {
+                "id": 10219590966410,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10221709854695,
+        "category": {
+            "id": 10221710059389,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10221710249725,
+                "name": "disney"
+            },
+            {
+                "id": 10221710249725,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10222545140505,
+        "category": {
+            "id": 10222545434355,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10222545626764,
+                "name": "disney"
+            },
+            {
+                "id": 10222545626764,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10223445907371,
+        "category": {
+            "id": 10223446111807,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10223446307137,
+                "name": "disney"
+            },
+            {
+                "id": 10223446307137,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10224062070638,
+        "category": {
+            "id": 10224062279514,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10224062429027,
+                "name": "disney"
+            },
+            {
+                "id": 10224062429027,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10225518996788,
+        "category": {
+            "id": 10225519267362,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10225519484181,
+                "name": "disney"
+            },
+            {
+                "id": 10225519484181,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775034,
+        "category": {
+            "id": 10225922636092,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10225922769165,
+                "name": "disney"
+            },
+            {
+                "id": 10225922769165,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10227650040337,
+        "category": {
+            "id": 10227650207468,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10227650356402,
+                "name": "disney"
+            },
+            {
+                "id": 10227650356402,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10228487867143,
+        "category": {
+            "id": 10228488090854,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10228488247772,
+                "name": "disney"
+            },
+            {
+                "id": 10228488247772,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10229083212907,
+        "category": {
+            "id": 10229083388396,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10229083513115,
+                "name": "disney"
+            },
+            {
+                "id": 10229083513115,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10229739846923,
+        "category": {
+            "id": 10229740026323,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10229740162601,
+                "name": "disney"
+            },
+            {
+                "id": 10229740162601,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10230521685731,
+        "category": {
+            "id": 10230521853979,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10230521977267,
+                "name": "disney"
+            },
+            {
+                "id": 10230521977267,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10231201703849,
+        "category": {
+            "id": 10231201889877,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10231202021925,
+                "name": "disney"
+            },
+            {
+                "id": 10231202021925,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10233297246639,
+        "category": {
+            "id": 10233297398478,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10233297530216,
+                "name": "disney"
+            },
+            {
+                "id": 10233297530216,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10233987911567,
+        "category": {
+            "id": 10233988135649,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10233988292429,
+                "name": "disney"
+            },
+            {
+                "id": 10233988292429,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10234621160674,
+        "category": {
+            "id": 10234621340743,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10234621466754,
+                "name": "disney"
+            },
+            {
+                "id": 10234621466754,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10235165112258,
+        "category": {
+            "id": 10235165258607,
+            "name": "dogs"
+        },
+        "name": "Pluto",
+        "photoUrls": [
+            "https://upload.wikimedia.org/wikipedia/en/b/b2/Pluto_%28Disney%29_transparent.png"
+        ],
+        "tags": [
+            {
+                "id": 10235165365170,
+                "name": "disney"
+            },
+            {
+                "id": 10235165365170,
+                "name": "lovely"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775054,
+        "category": {
+            "id": 0,
+            "name": "KhadijahPet"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775056,
+        "category": {
+            "id": 0,
+            "name": "KhadijahPet"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775105,
+        "category": {
+            "id": 0,
+            "name": "Nemo"
+        },
+        "name": "Fish",
+        "photoUrls": [
+            "https://avatars.mds.yandex.net/i?id=1987d977026b87b0889f11fa19ed76ffd75699d0-10876270-images-thumbs&n=13"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372016900017280,
+        "category": {
+            "id": 0,
+            "name": "FISH NEMO"
+        },
+        "name": "NEMO FISH",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775106,
+        "category": {
+            "id": 2,
+            "name": "Cats"
+        },
+        "name": "Tom",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1234321,
+        "category": {
+            "id": 0,
+            "name": "Cat"
+        },
+        "name": "Pamuk",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "My cute cat"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775108,
+        "category": {
+            "id": 0,
+            "name": "Cat"
+        },
+        "name": "cotton",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "my lovely cat"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775109,
+        "category": {
+            "id": 1,
+            "name": "string"
+        },
+        "name": "Jazlyn",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 773814,
+        "category": {
+            "id": 4315312,
+            "name": "Sanya"
+        },
+        "name": "Ovcharka",
+        "photoUrls": [
+            "https://www.google.com/imgres?q=%D0%9E%D0%B2%D1%87%D0%B0%D1%80%D0%BA%D0%B0&imgurl=https%3A%2F%2Fkormvmeshke.ru%2Fupload%2Fmedialibrary%2Fcf1%2Fcf115101f3fc8d7f8932182d1df139fd.jpg&imgrefurl=https%3A%2F%2Fkormvmeshke.ru%2Fencyclopedia%2Fnemetskaya-ovcharka%2Fopisanie-porody-ovcharka%2F&docid=cjg3-1dN-xrolM&tbnid=-CmWCSi2UvQVYM&vet=12ahUKEwiR5Obd6tyWAxXvGhAIHRcGA5cQnPAOegUIuQIQAA..i&w=300&h=449&hcb=2&ved=2ahUKEwiR5Obd6tyWAxXvGhAIHRcGA5cQnPAOegUIuQIQAA"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775117,
+        "category": {
+            "id": 0,
+            "name": "Roger"
+        },
+        "name": "Dinosaur",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775118,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggietest",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 123,
+        "category": {
+            "id": 2,
+            "name": "félins"
+        },
+        "name": "putty",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "domestique"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775119,
+        "category": {
+            "id": 1,
+            "name": "string"
+        },
+        "name": "Wilbert",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775120,
+        "category": {
+            "id": 1,
+            "name": "string"
+        },
+        "name": "Jamar",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775123,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775134,
+        "category": {
+            "id": 1,
+            "name": "string"
+        },
+        "name": "Candice",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775135,
+        "category": {
+            "id": 0,
+            "name": "iggy"
+        },
+        "name": "yuggy",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "cccc"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775136,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775138,
+        "category": {
+            "id": 1,
+            "name": "string"
+        },
+        "name": "Tito",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 15,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Maggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 25,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Fede",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775156,
+        "category": {
+            "id": 38556718,
+            "name": "dolor minim ipsum irure ex"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "velit sunt enim",
+            "ipsum culpa nulla"
+        ],
+        "tags": [
+            {
+                "id": -56521978,
+                "name": "do laborum dolore"
+            },
+            {
+                "id": -77010435,
+                "name": "nisi tempor consectetur"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 2,
+        "category": {
+            "id": 0,
+            "name": "Chartreux"
+        },
+        "name": "chat1",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "chat2"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 4,
+        "category": {
+            "id": 0,
+            "name": "sibérien"
+        },
+        "name": "chat1",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "chat2"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775160,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854775169,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 12,
+        "category": {
+            "id": 1,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 727272,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Alysa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="shouldGetPetDetailsById" classname="com.globant.automation.test.GetPetByIdTests" time="0.938">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 1788797282025,
+    "category": {
+        "id": 1,
+        "name": "dogs"
+    },
+    "name": "Buddy_1788797282025",
+    "photoUrls": [
+        "https://example.com/pet/1788797282025.jpg"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "friendly"
+        }
+    ],
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Date: Mon, 07 Sep 2026 16:08:00 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1788797282025,
+    "category": {
+        "id": 1,
+        "name": "dogs"
+    },
+    "name": "Buddy_1788797282025",
+    "photoUrls": [
+        "https://example.com/pet/1788797282025.jpg"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "friendly"
+        }
+    ],
+    "status": "available"
+}
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/1788797282025
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				api_key=special-key
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 07 Sep 2026 16:08:01 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1788797282025,
+    "category": {
+        "id": 1,
+        "name": "dogs"
+    },
+    "name": "Buddy_1788797282025",
+    "photoUrls": [
+        "https://example.com/pet/1788797282025.jpg"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "friendly"
+        }
+    ],
+    "status": "available"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldCreateOrderForPet" classname="com.globant.automation.test.CreateOrderTests" time="1.015">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 1788797282965,
+    "category": {
+        "id": 1,
+        "name": "dogs"
+    },
+    "name": "Buddy_1788797282965",
+    "photoUrls": [
+        "https://example.com/pet/1788797282965.jpg"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "friendly"
+        }
+    ],
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Date: Mon, 07 Sep 2026 16:08:01 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1788797282965,
+    "category": {
+        "id": 1,
+        "name": "dogs"
+    },
+    "name": "Buddy_1788797282965",
+    "photoUrls": [
+        "https://example.com/pet/1788797282965.jpg"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "friendly"
+        }
+    ],
+    "status": "available"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/store/order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 1788797283467,
+    "petId": 1788797282965,
+    "quantity": 1,
+    "shipDate": "2026-09-07T16:08:03.467Z",
+    "status": "placed",
+    "complete": false
+}
+HTTP/1.1 200 OK
+Date: Mon, 07 Sep 2026 16:08:02 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1788797283467,
+    "petId": 1788797282965,
+    "quantity": 1,
+    "shipDate": "2026-09-07T16:08:03.467+0000",
+    "status": "placed",
+    "complete": false
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldLogoutSuccessfully" classname="com.globant.automation.test.LogoutUserTests" time="1.503">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 1788797283982,
+    "username": "perfdog_user_be449b88",
+    "firstName": "Perf",
+    "lastName": "Dog",
+    "email": "perfdog_be449b88@example.com",
+    "password": "Pass_be449b88",
+    "phone": "3001234567",
+    "userStatus": 1
+}
+HTTP/1.1 200 OK
+Date: Mon, 07 Sep 2026 16:08:02 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1788797283982"
+}
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/user/login?password=Pass_be449b88&username=perfdog_user_be449b88
+Proxy:			<none>
+Request params:	<none>
+Query params:	password=Pass_be449b88
+				username=perfdog_user_be449b88
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 07 Sep 2026 16:08:03 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+X-Expires-After: Mon Sep 07 17:08:03 UTC 2026
+X-Rate-Limit: 5000
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1788797283266"
+}
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/user/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 07 Sep 2026 16:08:03 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

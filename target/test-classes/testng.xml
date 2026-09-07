@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PerfDog Petstore API Suite" verbose="1" parallel="false">
+    <test name="User and Store Functionalities">
+        <classes>
+            <class name="com.globant.automation.test.CreateUserTests"/>
+            <class name="com.globant.automation.test.LoginUserTests"/>
+            <class name="com.globant.automation.test.GetAvailablePetsTests"/>
+            <class name="com.globant.automation.test.GetPetByIdTests"/>
+            <class name="com.globant.automation.test.CreateOrderTests"/>
+            <class name="com.globant.automation.test.LogoutUserTests"/>
+        </classes>
+    </test>
+</suite>
